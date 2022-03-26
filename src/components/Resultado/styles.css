@@ -1,0 +1,22 @@
+.result__main {
+  height: 600px;
+  width: 100%;
+  max-width: 300px;
+  background-color: var(--very-dark-blue-card);
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 20px 0px;
+}
+
+.result__main__figure {
+  width: 100%;
+  margin: 0 0 40px;
+}
+
+.result__main__img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}

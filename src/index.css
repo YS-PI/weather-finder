@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --outfit: "Outfit", sans-serif;
+  --very-dark-blue-main: hsl(217, 54%, 11%);
+  --very-dark-blue-card: hsl(216, 50%, 16%);
+  --very-dark-blue-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+  --size: 18px;
+}
+
+body {
+  background-color: var(--very-dark-blue-main);
+}
+
+.app__climate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
