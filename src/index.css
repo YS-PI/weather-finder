@@ -27,3 +27,12 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
+
+.notFind__result {
+  text-align: center;
+  color: var(--white);
+  font-family: var(--outfit);
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 24px;
+}

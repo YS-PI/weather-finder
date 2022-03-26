@@ -17,7 +17,7 @@ const AppClima = () => {
         ) : resultado?.name ? (
           <ResultadoApi />
         ) : (
-          noResultados && <p>{noResultados}</p>
+          noResultados && <p className="notFind__result">{noResultados}</p>
         )}
       </Resultado>
     </div>

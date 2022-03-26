@@ -61,7 +61,7 @@ const Formulario = () => {
           </div>
 
           <input type="submit" value="Consultar Clima" className="btn1" />
-          {alerta && <p>{alerta}</p>}
+          {alerta && <p className="alert">{alerta}</p>}
         </div>
       </div>
     </form>
